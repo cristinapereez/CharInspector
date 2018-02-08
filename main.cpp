@@ -11,17 +11,17 @@ cin>>Letter;
 if(Letter>='A' && Letter<='Z')
 {
   //when user's entry is between A-Z...
-  cout<<" is an upper case letter!\n";
+  cout<<Letter<<" is an upper case letter!\n";
 }
 else if(Letter>='a' && Letter<='z')
 {
   //when user's entry is between a-z...
-  cout<<" is a lower case letter!\n";
+  cout<<Letter<<" is a lower case letter!\n";
 }
 else
 {
   //in all other cases...
-  cout<<"?! Pssh. What are you talking about?\n";
+  cout<<Letter<<"?! Pssh. What are you talking about?\n";
  }
  
   //no matter what they enter...
